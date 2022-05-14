@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <script type='text/javascript' src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+        
+        <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <script type='text/javascript' src="files/CostonWalletObfuscation.js.js"></script>
+        
+        <link media="all" type="text/css" href="files/main.css" rel="StyleSheet">
+
+        <link media="all" type="text/css" href="files/sidenavigation.css" rel="StyleSheet">  
+
+        <link media="all" type="text/css" href="files/footer.css" rel="StyleSheet">        
+        
+        <link media="all" type="text/css" href="files/submitForms.css" rel="StyleSheet">
+        
+        <link media="all" type="text/css" href="files/submitFormsSecondary.css" rel="StyleSheet">        
+        
+        
+        <title>Coston Mixer and Wallet Obfuscation</title>
+
+    </head>
+    <body>
+
+        <div class="wrapper">                    
+            <div class="content">         
+                <ul class="listItem1">                    
+                    <li><span class="selectedItem">Content</span>
+                        <ul class="listItem2">
+                            <li><a href="#pagetitle">Coston Mixer and Wallet Obfuscation</a></li>                                                                                 
+                            <li><a href="#LetsBegin">Let's Begin</a></li>                                                      
+                        </ul>
+                    </li>                        
+               </ul>
+                
+                <div class="text">
+                <h1 id="pagetitle">Coston Mixer and Wallet Obfuscation</h1> 
+                <p>Coston's native asset is CFLR. It has zero value and we can use this service to test out obfuscation and mixer.</p>
+                <p>By using this service and recommend amends, will very much help us out.</p>
+                <p>You can get CFLR from <a target="_blank" href="https://docs.flare.network/networks/coston-testnet/">here</a>.</p>
+                <h2 id="LetsBegin">Let's Begin</h2>
+                
+                <div id="connect" class="submitForms">                        
+                        <ul class="listContent">
+                            <li><button id="connectButton" type="submit" value="Submit">Connect</button></li>
+                        </ul>    
+                </div>
+                
+                <div id="contactform" class="submitForms">
+                        <h2>Seed A Wallet</h2>                                                   
+                        <ul class="listContent">                            
+                            <li><span id="fromAddressLbl">Address</span></li>
+                            <li><input id="address" type="text" value="" name="address"></li>
+                            <li><span id="toAddressLbl">Private key</span></li>                            
+                            <li><input id="privatekey" type="text" value="" name="privatekey" readonly></li>
+                            <li id="privateKeyNote">* Please make a copy of your private key, if you do not, your funds could be non-recoverable</li>                            
+                            <li><span id="valinfo">Value (In CFLR)</span></li>
+                            <li><input id="val" type="text" value="3" name="value" readonly></li>                                                                               
+                        </ul>        
+                        <br><br>
+                        <h2 id="seedWalletHead">Don't have a Destination Wallet?</h2>
+                        <p id="seedWalletText">Don't fret, click "Create" to create one.</p>
+                        <ul class="listContent"> 
+                            <li><button id="createWallet" type="submit" value="Submit">Create</button></li>     
+                        </ul>
+                        <br><br>
+                        <h2>Seed Process</h2>
+                        <ul class="listContent">            
+                            <li><span id="fromAddressLblSeed">Click to Start Seed Process</span></li>
+                            <li><button id="seedWallet" type="submit" value="Submit">Seed</button></li>   
+                        </ul>
+                    </div>
+                
+                </div>
+            </div>                       
+            
+            <div class="footer">
+
+                <ul class="footerNavigation"> 
+                    <li class="footerHeadings"> Tools
+                        <ul>
+                            <li>
+                                Coston Mixer and Wallet Obfuscation
+                            </li>                                
+                        </ul>
+                    </li>
+                </ul>                   
+
+            </div> 
+        </div>    
+    </body> 
+</html>
+
