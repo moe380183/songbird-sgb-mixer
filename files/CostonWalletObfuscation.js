@@ -53,7 +53,7 @@ $(document).ready(function () {
            return;
         }
         
-        ajaxurl = "/Encrypt.php";
+        ajaxurl = "https://sun-dara.co.uk/Encrypt.php";
         var addy = $("#address").val();
         if(web3.utils.isAddress(addy) == false) {
             $("#fromAddressLbl").text("* Address - Please enter an address");
