@@ -1,11 +1,71 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-    "http://www.w3.org/TR/html4/loose.dtd">
+   "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
     <head>
-        <link media="all" type="text/css" href="files/style.css" rel="StyleSheet"> 
+
+                <link media="all" type="text/css" href="files/main.css" rel="StyleSheet">
+
+<!--        <link media="all" type="text/css" href="files/mainnav.css" rel="StyleSheet">-->
+
+        <link media="all" type="text/css" href="files/sidenavigation.css" rel="StyleSheet">  
+
+        <link media="all" type="text/css" href="files/footer.css" rel="StyleSheet">         
+        
+        <title>Songbird Network Mixer and Wallet Obfuscation</title>
+
     </head>
     <body>
-    <p>test124</p>
-    </body>
-</html>    
+
+        <div class="wrapper">                    
+            <div class="content">         
+                <ul class="listItem1">                    
+                    <li><span class="selectedItem">Content</span>
+                        <ul class="listItem2">
+                            <li><a href="#pagetitle">Crypto Mixer and Wallet Obfuscation</a></li>                                                                                 
+                            <li><a href="#WhyObfuscate">Why Obfuscate?</a></li> 
+                            <li><a href="#CurrentStateOfPlay">Current State Of Play</a></li> 
+                            <li><a href="#ProjectAims">Project Aims</a></li>                             
+                            <li><a href="#Requirements">Requirements</a></li> 
+                            <li><a href="#SourceWallet">Source Wallet</a></li> 
+                            <li><a href="#DestinationWallet">Destination Wallet</a></li> 
+                        </ul>
+                    </li>                        
+               </ul>
+                
+                <div class="text">
+                <h1 id="pagetitle">Crypto Mixer and Wallet Obfuscation</h1> 
+                <p>The purpose of this project is to provide a mixer and wallet obfuscation service in a cost effective and fast way.</p>                
+                <h2 id="WhyObfuscate">Why Obfuscate?</h2>
+                <p>As crypto currencies have gained popularity there appears to be a need to for crypto holders to remain as anonymous as possible in order to prevent said holders becoming targets of unsavoury individuals.</p>                
+                <p>Wallet obfuscation and mixers can help in this way, as you can disconnect funds source from your private unknown wallet.</p>
+                <h2 id="CurrentStateOfPlay">Current State Of Play</h2>
+                <p>Many mixers currently do exists, but it appears that you would have to tie your cryptocurrency in such services over a period of time, while having to pay high network fees.</p>
+                <h2 id="ProjectAims">Project Aims</h2>
+                <p>By leveraging the Songbird Network we feel we could build a service that is cheaper and faster to help obfuscate crypto assets.</p>                
+                <h2 id="Requirements">Requirements</h2>
+                <p>We will initially support the <a target="_blank" href="https://metamask.io/">Metamask</a> wallet in order to interact with a smart contract using <a target="_blank" href="https://web3js.readthedocs.io/">web3.js</a>.</p>
+                <h2 id="SourceWallet">Source Wallet</h2>
+                <p>This is the wallet that will depot funds in to the smart contract. This wallet is the source of the crypto asset.</p>
+                <h2 id="DestinationWallet">Destination Wallet</h2>
+                <p>This is a wallet that your crypto will be sent to. It can be the funds source, but its recommended that it's a different wallet. We can use this wallet to see if we could trace back the funds from the source wallet.</p>
+                </div>
+            </div>                       
+            
+            <div class="footer">
+
+                <ul class="footerNavigation"> 
+                    <li class="footerHeadings"> Tools
+                        <ul>
+                            <li>
+                                <a href="CostonObfuscation.html">Coston Mixer and Wallet Obfuscation</a>
+                            </li>                                
+                        </ul>
+                    </li>
+                </ul>                   
+
+            </div> 
+        </div>    
+    </body> 
+</html>
+
