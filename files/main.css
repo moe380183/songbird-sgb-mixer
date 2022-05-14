@@ -1,0 +1,100 @@
+* {
+  font:100% arial,sans-serif;
+  margin: 0%;
+  padding: 0%;  
+}
+
+
+.header {
+    margin: 2em;
+    display:block;
+    height: 1em;
+}
+
+#mainlogo {
+  font-weight: bold;
+  width: 25%;
+/*  background-color: red;*/
+  text-align: left;
+  float: left;
+  display: inline;
+  height: 23px;
+  padding-top: 12px;
+}
+
+body {
+    margin-left:10%;    
+    width: 80%;
+/*    background-color: #5A5A5A;*/
+}
+
+.wrapper {
+/*    background-color: #fff;*/
+}
+
+.content {
+    margin: 2em;    
+    min-height: 600px;
+}
+
+.text {
+    width: 69%;
+/*    min-height: 500px;*/
+/*    background-color: red;*/
+    float: left;    
+}
+
+h1, h2, h3, h4, p 
+{ 
+ padding-left: 0.1%; 
+ text-align: left;
+ line-height: 240%;
+}
+
+h1, h2, h3, h4
+{
+  font-weight: bold;
+}
+
+ul.listContent
+{     
+  padding: 5px 5px 5px 4px;
+  margin: 0px 15px 5px 0px;
+  list-style-type: none;   
+  font-size: 16px; 
+}
+
+ul.listContent li
+{       
+  margin-top: 10px;  
+  margin-left: 10px;  
+}
+
+.codetextarea {
+    width: 98%;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 0px;
+    padding: 3px;
+    margin-bottom: 50px;
+}
+
+.listContentNews {
+  padding: 10px;
+  margin: 0px 15px 15px 0px;
+  list-style-type: none; 
+  font-size: 16px; 
+  border-bottom: 1px dotted #000;
+}
+
+ul.listContentNews li
+{       
+  margin-top: 10px;  
+  margin-left: 10px;  
+  margin-bottom: 15px;  
+}
+
+.contentimages {
+  border: 1px solid #000;  
+  width: 99%;
+}

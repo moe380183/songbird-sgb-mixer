@@ -1,0 +1,48 @@
+.footer
+{
+  text-align: left;  
+/*  background-color: #fff;*/
+  float: left;
+  width: 100%;
+  margin: 2em;
+  padding-top: 1em;
+  border-top: 1px solid #000;
+}
+
+.footer ul
+{
+  list-style-type: none;
+/*  background-color: #fff;*/
+}
+
+.footer a
+{
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.footerHeadings
+{
+  font-weight: bold;
+}
+
+
+#footerNavigationInner, .footerNavigation
+{
+  padding-left: 10px;
+  width: 235px;
+  float: left;
+}
+
+#footerNavigationInner li, .footerNavigation li
+{
+  width: 145px;
+  padding: 10px 5px 5px 5px;
+}
+
+#footerLogo
+{
+  margin: 30px 0px 0px 310px;
+}

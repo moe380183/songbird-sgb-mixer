@@ -1,0 +1,38 @@
+.submitForms {
+  width: 40%;
+}
+
+.submitForms li input {
+    width: 98%;
+    border: 1px solid #000;
+    border-radius: 0px;
+    height: 25px;
+    padding: 3px;
+}
+
+.submitForms li textarea {
+    width: 98%;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 0px;
+    padding: 3px;
+}
+
+.submitForms li button {
+    float: right;
+    border-radius: 0px;
+    background-color: #fff;
+    padding: 6px;
+    width: 100px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.submitForms li button:hover {    
+    font-weight:bold;
+}
+
+.formError {
+    padding-left: 10px;
+    padding-top: 10px;
+}

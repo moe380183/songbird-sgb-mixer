@@ -1,0 +1,63 @@
+/*main nav*/
+ul.navigation 
+{     
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none; 
+  overflow: hidden;
+  height: 50px; 
+  font-size: 16px;
+  float: left;
+  width: 75%;
+/*  background-color: blue;*/
+}
+
+ul.navigation li 
+{ 
+  padding: 10px 0px 0px 0px;
+  margin: 0px;
+  float: left;
+  width: 16%;
+  height: 35px;
+  text-align: center;
+}
+
+ul.navigation a
+{
+  display: block;
+  border-left: 1px solid #000;
+  text-decoration: none;
+  color: #000;
+}
+
+ul.navigation span
+{
+  display: block;
+  border-left: 1px solid #000;
+  font-weight: bold;
+}
+
+ #firstLink
+ {
+    border-left: none;
+ }
+
+#navLast
+{
+  border-right: none;  
+}
+
+#navLast a
+{
+  border-right: 1px solid #000;
+}
+
+#navFirst a
+{
+  border-left: none;  
+}
+
+#firstSpanContactUs
+{
+  border-right: 1px solid #000;
+}
