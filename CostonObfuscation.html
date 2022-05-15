@@ -7,7 +7,7 @@
         
         <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         
-        <script type='text/javascript' src="files/CostonWalletObfuscation.js"></script>
+        <script type='text/javascript' src="files/SongbirdWalletObfuscation.js"></script>
         
         <link media="all" type="text/css" href="files/main.css" rel="StyleSheet">
 
@@ -20,7 +20,7 @@
         <link media="all" type="text/css" href="files/submitFormsSecondary.css" rel="StyleSheet">        
         
         
-        <title>Coston Mixer and Wallet Obfuscation</title>
+        <title>Songbird (SGB) Mixer and Wallet Obfuscation</title>
 
     </head>
     <body>
@@ -30,24 +30,17 @@
                 <ul class="listItem1">                    
                     <li><span class="selectedItem">Content</span>
                         <ul class="listItem2">
-                            <li><a href="#pagetitle">Coston Mixer and Wallet Obfuscation</a></li>     
-                           <li><a href="#feesHeading">Fees</a></li>
-                            <li><a href="#LetsBegin">Let's Begin</a></li>     
-                           <li><a href="#LogHeading">Log</a></li>                            
+                            <li><a href="#pagetitle">Songbird (SGB) Mixer and Wallet Obfuscation</a></li>                                                                                 
+                            <li><a href="#LetsBegin">Let's Begin</a></li>                                                      
                         </ul>
                     </li>                        
                </ul>
                 
                 <div class="text">
-                <h1 id="pagetitle">Coston Mixer and Wallet Obfuscation</h1> 
-                <p>Coston's native asset is CFLR. It has zero value and we can use this service to test out obfuscation and mixer.</p>
-                <p>By using this service and recommend amends, will very much help us out.</p>
-                <p>You can get CFLR from <a target="_blank" href="https://docs.flare.network/networks/coston-testnet/">here</a>.</p>
-                <p>Once you begin an obfuscation process, wait for the funds to arrive in your destination wallet. See if you can trace back the funds definitively from your destination wallet back to your source wallet.</p>   
-                <p>We have intentionally made it go slower than usual for Coston, to try and give you an opportunity to trace back.</p>
-                    <h2 id="feesHeading">Fees</h2>
-                    <p>CFLR have zero value, and as such we have set the fee at 2 CFLR with a constant value of 3 CFLR per seeding process. This means you will get back just under 1 CFLR due to network fees.</p>
-                    <p>We intentionally used simple numbers for this demonstration making it easier to work out how much you would get in your seed wallet.</p>
+                <h1 id="pagetitle">Songbird (SGB) Mixer and Wallet Obfuscation</h1> 
+                <p>Songbird's native asset is SGB.</p>
+                <p>Before using this service, we recommend you use the <a href="CostonObfuscation.html">Coston</a> to get an idea, before sending real value.</p>
+                <p>If you wish to proceed, its recommended to do an initial test first, before you pass all your funds.</p>
                 <h2 id="LetsBegin">Let's Begin</h2>
                 
                 <div id="connect" class="submitForms">                        
@@ -64,8 +57,8 @@
                             <li><span id="toAddressLbl">Private key</span></li>                            
                             <li><input id="privatekey" type="text" value="" name="privatekey" readonly></li>
                             <li id="privateKeyNote">* Please make a copy of your private key, if you do not, your funds could be non-recoverable</li>                            
-                            <li><span id="valinfo">Value (In CFLR)</span></li>
-                            <li><input id="val" type="text" value="3" name="value" readonly></li>                                                                               
+                            <li><span id="valinfo">Value (In SGB)</span></li>
+                            <li><input id="val" type="text" value="200" name="value" readonly></li>                                                                               
                         </ul>        
                         <br><br>
                         <h2 id="seedWalletHead">Don't have a Destination Wallet?</h2>
@@ -80,14 +73,6 @@
                             <li><button id="seedWallet" type="submit" value="Submit">Seed</button></li>   
                         </ul>
                     </div>
-                   
-                   <h2 id="LogHeading">Log</h2>
-                    <p>Here is a log of actions.</p>
-                    <div id="log">
-                        
-                    </div>
-                    <h2>Disclaimer</h2>
-                    <p>It is your responsibility to use this tool correctly and legally. We do not hold any information or data by design.</p>
                 
                 </div>
             </div>                       
@@ -100,6 +85,9 @@
                             <li>
                                 Coston Mixer and Wallet Obfuscation
                             </li>                                
+                            <li>
+                                <a href="Songbird.html">Songbird Mixer and Wallet Obfuscation</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>                   
@@ -108,4 +96,3 @@
         </div>    
     </body> 
 </html>
-
